@@ -617,15 +617,6 @@ Việc tái cấu trúc TransferService bằng cách áp dụng **Strategy Patte
 
 Kiến trúc mới phù hợp hơn với định hướng phát triển lâu dài của một hệ thống Digital Banking hiện đại.
 
-
-
-## Phan 2
-
-## Phan 3
-
-## Phan 4
-
-
 ---
 
 ## Nhiệm vụ 2
