@@ -679,7 +679,13 @@ org.springframework.security.access.AccessDeniedException: Access Denied
 at com.rikkei.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:46)
 at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
 ...
-Mô tả là hình ảnh như củ Với yêu cầu hãy thực hiện theo các bước: 1. Xác định luồng hoạt động của security filter 2. Dựa vào đó tìm ra giải pháp để bắt lỗi này một cách tập trung, tích hợp cơ chế xữ lý ngoại lệ một cách chuẩn mực trong spring security, trả về json đồng nhất vd forbidden message 3. dựa vào giải pháp và viết code tạo các thực thể cùng với giải pháp và giải thích tại sao không nên chỉ dùng trycatch đơn thuần bên trong ham filter Đầu ra: tiếp tục mà ghi file với đuôi markdown theo từng bước thực hiện.
+Mô tả là hình ảnh như củ  
+Với yêu cầu hãy thực hiện theo các bước:  
+1. Xác định luồng hoạt động của security filter  
+2. Dựa vào đó tìm ra giải pháp để bắt lỗi này một cách tập trung, tích hợp cơ chế xữ lý ngoại lệ một cách chuẩn mực trong spring security, trả về json đồng nhất vd forbidden message  
+3. dựa vào giải pháp và viết code tạo các thực thể cùng với giải pháp và giải thích tại sao không nên chỉ dùng trycatch đơn thuần bên trong ham filter  
+   
+   Đầu ra: tiếp tục mà ghi file với đuôi markdown theo từng bước thực hiện.
 
 ```
 
@@ -1376,3 +1382,7 @@ Thiết kế này tuân thủ các nguyên lý SOLID, giảm sự phụ thuộc 
 ```markdown
 Dựa vào những phân tích ở phân security và mã nguồn sinh ra hãy thực hiện việc tạo nên hình ảnh các bảng entity nhầm báo cáo khác hàng
 ```
+
+4. Prompt AI agent -> thực hiện viết code
+    Dựa vào kết quả báo cáo hãy thực hiện sinh mã nguồn cho vào folder của mục refactoring
+    Dựa vào filereadme hãy thực hiện triển khai viết mã nguồn cho phần entity và security
